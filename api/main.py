@@ -8,5 +8,4 @@ def read_root():
 
 @app.get("/hello")
 def say_hello():
-    return {"message": "Hello from BuildXAI!"}
-    
+    return {"message": "Hello from BuildXAI!"} 
