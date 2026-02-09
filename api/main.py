@@ -4,11 +4,6 @@ app = Flask(__name__)
 
 @app.route('/')
 def home():
-    return "BuildXAI is Live!"
+    return "BuildXAI is Live and Working!"
 
-@app.route('/api/main')
-def main_api():
-    return "Hello from BuildXAI API!"
-
-if __name__ == "__main__":
-    app.run()
+app_handle = app
