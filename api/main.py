@@ -4,6 +4,8 @@ app = Flask(__name__)
 
 @app.route('/')
 def home():
-    return "BuildXAI is Live and Working!"
+    return "BuildXAI is Live!"
 
-app_handle = app
+# මේ පේළිය අනිවාර්යයෙන්ම තියෙන්න ඕනේ
+if __name__ == "__main__":
+    app.run()
